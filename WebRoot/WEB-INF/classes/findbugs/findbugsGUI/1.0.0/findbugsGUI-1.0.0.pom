@@ -1,0 +1,11 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>findbugs</groupId>
+  <artifactId>findbugsGUI</artifactId>
+  <version>1.0.0</version>
+  <url>http://findbugs.sf.net</url>
+  <description>Gui support of the FindBugs tool</description>
+  <scm>
+    <connection>scm:cvs:pserver:anonymous@cvs.sourceforge.net:/cvsroot/findbugs/findbugs</connection>
+  </scm>
+</project>

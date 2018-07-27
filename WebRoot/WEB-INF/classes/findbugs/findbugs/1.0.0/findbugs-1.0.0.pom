@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>findbugs</groupId>
+  <artifactId>findbugs</artifactId>
+  <version>1.0.0</version>
+  <url>http://findbugs.sf.net</url>
+  <description>Findbugs: Because it's easy!</description>
+  <scm>
+    <connection>scm:cvs:pserver:anonymous@cvs.sourceforge.net:/cvsroot/findbugs/findbugs</connection>
+  </scm>
+
+    <dependencies>
+      <dependency>
+        <groupId>findbugs</groupId>
+        <artifactId>annotations</artifactId>
+        <version>1.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>bcel</groupId>
+        <artifactId>bcel</artifactId>
+        <version>5.1</version>
+      </dependency>
+      <dependency>
+        <groupId>findbugs</groupId>
+        <artifactId>coreplugin</artifactId>
+        <version>1.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>findbugs</groupId>
+        <artifactId>findbugs-ant</artifactId>
+        <version>1.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>findbugs</groupId>
+        <artifactId>findbugsGUI</artifactId>
+        <version>1.0.0</version>
+      </dependency>
+    </dependencies>
+
+</project>

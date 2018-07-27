@@ -1,0 +1,155 @@
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Audio Player Widget Responsive Website Template | Home :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Audio Player Widget Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_2",
+		cssSelectorAncestor: "#jp_container_2"
+	}, [
+		{
+			title:"Cro Magnon Man",
+			mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
+		},
+		{
+			title:"Your Face",
+			mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
+		},
+
+		{
+			title:"Hidden",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
+		},
+		{
+			title:"Lismore",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
+		},
+
+		{
+			title:"Thin Ice",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-10-Thin-ice.ogg"
+		}
+	], {
+		swfPath: "../../dist/jplayer",
+		supplied: "oga, mp3",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+});
+//]]>
+</script>
+</head>
+<body>
+<!-- main -->
+<div class="audio-main">
+	<div class="audio-record-list">
+		<h1 class="w3ls">Audio Player Widget</h1>
+		<img src="images/2.jpg">
+		<div id="jquery_jplayer_2" class="jp-jplayer"></div>
+		<div id="jp_container_2" class="jp-audio" role="application" aria-label="media player">
+			<div class="title">
+				<h2>Audio Playlist</h2>
+				<a class="heart-agile" href="#"><img onclick="changeImg(this, 'images/buttonA_on.jpg')" src="images/buttonA_off.jpg"></a>
+			</div>
+			<div class="jp-type-playlist">
+						<div class="jp-progress">
+						<div class="jp-seek-bar">
+							<div class="jp-play-bar"></div>
+						</div>
+					</div>
+				<div class="jp-gui jp-interface">
+			
+					<div class="jp-controls">
+						<button class="jp-play" role="button" tabindex="0">play</button>
+						<button class="jp-previous" role="button" tabindex="0">previous</button>
+						<button class="jp-next" role="button" tabindex="0">next</button>
+					</div>
+			
+					<div class="jp-volume-controls">
+						<button class="jp-mute" role="button" tabindex="0">mute</button>
+						<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+						<div class="jp-volume-bar">
+							<div class="jp-volume-bar-value"></div>
+						</div>
+					</div>
+					<div class="jp-time-holder">
+						<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+						<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+					</div>
+				</div>
+				<div class="jp-playlist">
+					<ul>
+						<li>&nbsp;</li>
+					</ul>
+				</div>
+				<div class="jp-no-solution">
+					<span>Update Required</span>
+					To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+				</div>
+			</div>
+		</div>			
+	</div>
+	<div class="footer">
+		<div class="agileinfo">
+			<p> &copy; 2016 Audio Player Widget. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+		</div>
+	</div>
+</div>
+<!-- //main -->
+<!-- script for play-list -->
+<link href="css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+
+<!-- //script for play-list -->
+    <script type="text/javascript">
+    function changeImg(img, newimg) {
+    img.src = newimg;
+    }
+
+
+    </script>
+	  <script type="text/javascript">
+			function changeImg(img) {
+			if ( img.src.indexOf("_on") > 0 ) {
+				img.src = img.src.replace("_on","_off");
+			}
+			else {
+				img.src = img.src.replace("_off","_on");
+			}
+		} 
+		</script>
+</body>
+</html>

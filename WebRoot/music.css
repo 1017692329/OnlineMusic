@@ -1,0 +1,322 @@
+@charset "utf-8";
+body {
+	background-image: url(images/mainbg.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+	background-position: 4px top;
+}
+#container {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+	margin: 0 0 0 148px;
+	width: 1000px;
+}
+#main-container {
+	background-image: url(images/bg-footer.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+#content-wrapper {
+	background-image: url(images/content-bottom.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+#footer {
+	background-color: #ececec;
+	height: 95px;
+	padding: 10px 0 0 0;
+}
+.footer-content {
+	margin: 0px auto;
+	padding: 0 40px 0 0;
+	width: 914px;
+}
+
+.left-column {
+	width: 202px;
+	float: left;
+	padding: 0 0 0 27px;
+}
+.footer-logo {
+	background-image: url(images/pg1-main_68.jpg);
+	height: 64px;
+	width: 181px;
+	margin: 0 10px 0 0;
+	float: left;
+}
+.footer-copyright {
+	line-height: 18px;
+	float: left;
+	padding: 10px 0 0 0;
+	color: #999;
+}
+.footer-terms {
+	float: right;
+	line-height: 18px;
+	text-align: right;
+	color: #999;
+	padding: 10px 0 0 0;
+}
+
+
+
+.right-col {
+	width: 709px;
+	background-image: url(images/bg-maincol.jpg);
+	float: left;
+	margin: 0 0 30px 0;
+}
+.content {
+	margin: 0px;
+	padding: 0 30px 0 30px;
+	line-height: 18px;
+}
+
+
+
+
+.clearboth {
+	clear: both;
+}
+.mainimg-container {
+	width: 771px;
+	float: left;
+}
+.logo {
+	height: 105px;
+	width: 229px;
+}
+.side {
+	width: 229px;
+	float: left;
+}
+.side-image {
+	padding: 153px 0 0 0;
+}
+.side-login {
+	margin: 0 0 0 22px;
+	padding: 0 0 0 0;
+	background-image: url(images/bg-col.gif);
+	background-repeat: repeat-y;
+}
+.side-login-content {
+	margin: 0;
+	padding: 0 22px 0 18px;
+}
+.button {
+	float: left;
+	margin: 0 10px 0 5px;
+}
+
+.line {
+	background-image: url(images/pg1-main_24.gif);
+	background-repeat: no-repeat;
+	margin: 10px 0 0 0;
+	height: 20px;
+	float: left;
+}
+
+.login {
+	float: right;
+	height: 41px;
+	width: 41px;
+}
+.login-input {
+	float: left;
+	width: 119px;
+}
+.nav-bar {
+	height: 79px;
+	padding: 0 67px 0 99px;
+}
+.nav {
+	height: 29px;
+	margin: 34px 0 0 0;
+}
+.nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+.nav li {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+
+.top-newsbar {
+	height: 16px;
+	width: 605px;
+	text-align: right;
+}
+.main-img {
+	background-image: url(images/main-img.jpg);
+	height: 272px;
+	width: 771px;
+}
+.main-col {
+	background-image: url(images/main-image01.gif);
+	height: 149px;
+	width: 199px;
+	float: left;
+}
+.main-col-center {
+	background-image: url(images/main-image02.jpg);
+	height: 149px;
+	width: 348px;
+	background-repeat: no-repeat;
+	float: left;
+}
+.main-butchat {
+	float: left;
+	height: 148px;
+	width: 224px;
+}
+.content-col1 {
+	float: left;
+	width: 200px;
+	margin: 0 20px 0 0;
+	line-height: 18px;
+}
+.content-col1 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.content-col1 li {
+	background-image: url(images/new-icon.gif);
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0 0 0 30px;
+	background-position: left 3px;
+}
+
+.content-col2 {
+	float: left;
+	width: 200px;
+	margin: 0;
+	line-height: 18px;
+}
+.left-col-inner {
+	margin: 0 7px 0 0;
+	padding: 0px;
+	float: left;
+	width: 92px;
+}
+.buttonsub {
+	margin: 0 0 3px 0;
+	padding: 0px;
+}
+
+
+
+.title {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5e5e5;
+	height: 20px;
+	margin: 0 0 10px 0;
+}
+.content-img {
+	float: left;
+}
+.content-col2 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.content-col2 li {
+	background-image: url(images/new-icon.gif);
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0 0 0 30px;
+	background-position: left 3px;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+
+
+
+
+.form{
+	padding: o;
+	margin: 0;
+}
+.address {
+	margin: 0;
+	padding: 0 0 0 20px;
+	float: left;
+	line-height: 20px;
+}
+.contact-form {
+	float: left;
+	margin: 0;
+}
+
+div.fieldwrapper{ /*field row DIV (includes two columns- Styled label column and 'thefield' column)*/
+	width: 300px; /*width of form rows*/
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	height: auto;
+}
+.txt-blank {
+	color: #FFF;
+}
+
+
+div.fieldwrapper label.styled{ /* label elements that should be styled (left column within fieldwrapper DIV) */
+	float: left;
+	width: 80px;
+	margin-right: 0px; /*spacing with right column*/
+}
+div.thefield ul {
+	margin: 0px;
+	padding: 0px;
+}
+div.thefield li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0 6px 0 0;
+}
+
+
+
+div.fieldwrapper div.thefield{ /* DIV that wraps around the actual form fields (right column within fieldwrapper DIV) */
+	float: left;
+	margin-bottom: 10px; /* space following the field */
+}
+
+div.fieldwrapper div.thefield input[type="text"]{ /* style for INPUT type="text" fields. Has no effect in IE7 or below! */
+	width: 200px;
+	height: 18px;
+}
+
+
+div.fieldwrapper div.thefield textarea{ /* style for TEXTAREA fields. */
+	width: 198px;
+	height: 50px;
+}
+div.fieldwrapper div.thebig textarea {
+	width: 400px;
+	height: 100px;
+}
+
+
+
+div.buttonsdiv{ /*div that wraps around the submit/reset buttons*/
+	width: 379px;
+	text-align: left;
+
+}

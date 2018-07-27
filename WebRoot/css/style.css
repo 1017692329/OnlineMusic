@@ -1,0 +1,816 @@
+/*--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/*--- reset code ---*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol,ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+blockquote,q {
+	quotes:none;
+}
+blockquote:before,blockquote:after,q:before,q:after {
+	content:'';
+	content:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+/* start editing from here */
+a {
+	text-decoration:none;
+}
+.txt-rt {
+	text-align:right;
+}/* text align right */
+.txt-lt {
+	text-align:left;
+}/* text align left */
+.txt-center {
+	text-align:center;
+/*-- W3Layouts --*/	
+}/* text align center */
+.float-rt {
+	float:right;
+}/* float right */
+.float-lt {
+	float:left;
+}/* float left */
+.clear {
+	clear:both;
+}/* clear float */
+.pos-relative {
+	position:relative;
+}/* Position Relative */
+.pos-absolute {
+	position:absolute;
+}/* Position Absolute */
+.vertical-base {	
+	vertical-align:baseline;
+}/* vertical align baseline */
+.vertical-top {	
+	vertical-align:top;
+}/* vertical align top */
+nav.vertical ul li {	
+	display:block;
+}/* vertical menu */
+nav.horizontal ul li {	
+	display: inline-block;
+}/* horizontal menu */
+img {
+	max-width:100%;
+}
+
+/*--- end reset code ---*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:url('../images/banner.jpg') no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	font-family: 'Open Sans', sans-serif;
+}
+a, a:visited {
+	outline:none;
+	/*-- w3layouts --*/ 
+	color:#1c4f64;
+}
+a:hover{
+	text-decoration:none;
+}
+section, footer, header{
+	display: block;
+}
+h1.w3ls {
+	font-size:50px;
+	font-weight:normal;
+	color:#fff;
+	padding:30px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+#main{
+	width: 35%;
+    margin: 0px auto 120px;
+    position: relative;
+    text-align: center;
+    padding: 40px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 10px solid rgba(31, 20, 20, 0.37);
+}
+img.dial-agileits {
+    width: 150px;
+}
+#main form .row{
+	position:relative;
+}
+#main form .row.error:after,
+#main form .row.success:after{
+	content:'';
+	position:absolute;
+	right:120px;
+    top: 8px;
+	width:32px;
+	height:32px;
+	background:url('../images/icons.png') no-repeat;
+}
+#main form .row.error:after{
+	background-position: 0 -79px;
+}
+#main form input#email {
+	background:url(../images/email.png) no-repeat 15px 13px;	
+}
+#main form input#password1 {
+	background:url(../images/key.png) no-repeat 15px 13px;
+/*-- w3layouts --*/ 	
+} 
+#main form input#password2 {
+	background:url(../images/key2.png) no-repeat 15px 13px;	
+}
+input#email,input#password1,input#password2 {
+	width:300px;
+	height:50px;
+	font-size:17px;
+	font-weight:normal;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	border:1px solid #fff;
+	margin-bottom:15px;
+	padding: 0 20px 0 50px;
+}
+#main form input[disabled]{
+	opacity: 0.5;
+}
+
+#main form .email input{
+	background-position:0 0;
+}
+
+#main form .email input:focus{
+	background-position:0 -48px;
+}
+
+#main form .pass input{
+	background-position:0 -96px;
+}
+
+#main form .pass input:focus{
+	background-position:0 -144px;
+}
+#main form input[type=submit]{
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #004C9B;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #D3EBFF;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px;
+    text-shadow: 0 -1px 0 #444444;
+    width: 410px;
+        font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+	/*-- w3ls --*/
+	background-color:#0496DA;
+	
+	background-image: linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -o-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -moz-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -webkit-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -ms-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+}
+
+#main form input[type=submit]:hover{
+	
+	background-color:#0383d3;
+	
+	background-image: linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -o-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -moz-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -webkit-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -ms-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+}
+
+#main form input[type=submit]:active{
+	
+	background-color:#026fcb;
+	
+	background-image: linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -o-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -moz-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -webkit-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -ms-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+}
+#main form .arrow{
+    background: url(../images/arrow.png) no-repeat -10px 0;
+    height: 120px;
+    left: 288px;
+    position: absolute;
+    top: 256px;
+    width: 11px;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    -moz-transform: rotate(-134deg);
+    -webkit-transform: rotate(-134deg);
+    -o-transform: rotate(-134deg);
+    -ms-transform: rotate(-134deg);
+    transform: rotate(-134deg);
+}
+#main form .arrowCap{
+	/*-- w3ls --*/
+	background: url(../images/arrow.png) no-repeat -43px 0;
+    height: 20px;
+    left: 282px;
+    position: absolute;
+    top: 308px;
+    width: 20px;
+    z-index: 10;
+}
+#main form .meterText{
+	color: #ffffff;
+    font-size: 10px;
+    left: 256px;
+    line-height: 1.1;
+    position: absolute;
+    top: 395px;
+}
+p.copyright {
+    text-align: center;
+    padding: 0 0 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+p.copyright a {
+	color:#ab8071;
+}
+p.copyright a:hover {
+	color:red;
+}
+
+/*-- responsive design --*/ 
+@media (max-width:1600px) {
+#main form .arrowCap {
+	left: 268px;
+    top: 309px;
+}
+#main form .arrow {
+	left: 275px;
+	top: 256px;
+}
+#main form input[type=submit] {
+	margin: 35px auto 0;
+}
+#main form .meterText {
+	left: 239px;
+	top: 404px;	
+}
+#main {
+	margin:0 auto 30px;
+/*-- agileits --*/
+}
+#main form .row.error:after, #main form .row.success:after {
+	right: 110px;
+    top: 9px;
+}
+}
+
+@media (max-width: 1440px) {
+#main form .arrowCap {
+    left: 240px;
+    top: 308px;
+}
+#main form .arrow {
+    left: 246px;
+    top: 256px;
+}
+#main form .meterText {
+    left: 216px;
+    top: 404px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 80px;
+    top: 9px;
+}
+}
+
+@media (max-width: 1366px) {
+p.copyright {
+	padding:20px 10px;
+}
+#main {
+	margin:0 auto 85px;
+}
+#main form .arrow {
+    left: 230px;
+    top: 256px;
+}
+#main form .arrowCap {
+    left: 224px;
+    top: 308px;
+}
+#main form .meterText {
+    left: 199px;
+    top: 404px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 65px;
+    top: 9px;
+}
+}
+
+@media (max-width: 1280px) {
+#main form .arrow {
+    left: 216px;
+    top: 256px;
+}
+#main form .arrowCap {
+    left: 210px;
+    top: 308px;
+}
+#main form .meterText {
+/*-- agileits --*/
+    left: 183px;
+    top: 404px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 55px;
+    top: 9px;
+}
+}
+
+@media (max-width: 1080px) {
+	h1.w3ls {
+    font-size: 40px;
+}
+#main {
+    width: 45%;
+	margin: 0 auto 48px;
+}
+input#email, input#password1, input#password2 {
+	font-size:15px;
+	height:45px;
+}
+img.dial-agileits {
+    width: 150px;
+    margin: 10px auto;
+}
+#main form .arrow {
+    left: 234px;
+    top: 251px;
+}
+#main form .arrowCap {
+    left: 228px;
+    top: 303px;
+}
+#main form .row.error:after, #main form .row.success:after {
+	right:65px;
+}
+#main form .meterText {
+    left: 200px;
+    top: 404px;
+}
+p.copyright {
+    padding: 20px 10px;
+    font-size: 14px;
+}
+}
+
+@media (max-width: 1050px) {
+#main form .arrow {
+    left: 231px;
+    top: 251px;
+}
+#main form .arrowCap {
+    left: 224px;
+	/*-- agileinfo --*/
+    top: 304px;
+}
+}
+
+@media (max-width: 1024px) {
+#main form .arrow {
+    left: 221px;
+    top: 251px;
+}
+#main form .arrowCap {
+    left: 214px;
+    top: 304px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 56px;
+	top:7px;
+}
+}
+
+@media (max-width: 991px) {
+h1.w3ls {
+    font-size: 35px;
+	padding: 25px 0;
+}
+#main form .arrow {
+    left: 214px;
+    top: 251px;
+}
+#main form .arrowCap {
+    left: 208px;
+    top: 304px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 47px;
+    top: 7px;
+}
+}
+
+@media (max-width: 900px) {
+#main {
+    width: 50%;
+    margin: 0 auto 48px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 50px;
+}
+#main form .arrowCap {
+    left: 209px;
+    top: 304px;
+}
+#main form .arrow {
+    left: 216px;
+    top: 251px;
+}
+#main form .meterText {
+    left: 184px;
+    top: 404px;
+	/*-- agileinfo --*/
+}
+}
+
+@media (max-width: 800px) {
+input#email, input#password1, input#password2 {
+    width: 265px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 40px;
+}
+#main form input[type=submit] {
+	width:88%;
+}
+#main form .arrow {
+    left: 191px;
+    top: 252px;
+}
+#main form .arrowCap {
+    left: 184px;
+    top: 304px;
+}
+#main form .meterText {
+    left: 159px;
+    top: 404px;
+}
+#main {
+    width: 50%;
+    margin: 0 auto 10px;
+}
+}
+
+@media (max-width: 768px) {
+#main {
+    width: 55%;
+    margin: 0 auto 10px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 55px;
+}
+#main form .arrow {
+    left: 206px;
+    top: 252px;
+}
+#main form .arrowCap {
+    left: 200px;
+    top: 304px;
+}
+#main form .meterText {
+    left: 173px;
+	/*-- wthree --*/
+    top: 404px;
+}
+}
+
+@media (max-width: 736px) {
+#main form .arrow {
+    left: 193px;
+    top: 252px;
+}
+#main form .arrowCap {
+    left: 187px;
+    top: 304px;
+}
+#main form .meterText {
+    left: 160px;
+    top: 404px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 42px;
+}
+}
+
+@media (max-width: 667px) {
+h1.w3ls {
+    font-size: 33px;
+    padding: 20px 0;
+}
+#main {
+    width: 60%;
+    margin: 0 auto 10px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 40px;
+}
+#main form .arrow {
+    left: 190px;
+    top: 252px;
+}
+#main form .arrowCap {
+    left: 184px;
+    top: 304px;
+}
+#main form .meterText {
+    left: 158px;
+    top: 404px;
+}
+}
+
+@media (max-width: 640px) {
+#main form .arrow {
+    left: 181px;
+    top: 252px;
+	/*-- wthree --*/
+}
+#main form .arrowCap {
+    left: 175px;
+    top: 304px;
+}
+#main form .meterText {
+    left: 151px;
+    top: 404px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 33px;
+}
+}
+
+@media (max-width: 600px) {
+#main {
+    width: 70%;
+    margin: 0 auto 10px;
+}
+#main form .arrowCap {
+    left: 194px;
+    top: 304px;
+}
+#main form .meterText {
+    left: 168px;
+    top: 404px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 47px;
+}
+#main form .arrow {
+    left: 200px;
+    top: 252px;
+}
+}
+
+@media (max-width: 568px) {
+h1.w3ls {
+    font-size: 30px;
+    padding: 20px 0;
+}
+input#email, input#password1, input#password2 {
+    width: 235px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 50px;
+}
+#main form .arrow {
+    left: 188px;
+    top: 252px;
+}
+#main form .arrowCap {
+    left: 182px;
+    top: 304px;
+}
+#main form .meterText {
+    left: 156px;
+    top: 404px;
+}
+/*-- agile --*/
+}
+
+@media (max-width: 480px) {
+#main {
+    width: 77%;
+    margin: 0 auto 10px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 35px;
+}
+#main form .arrow {
+    left: 174px;
+    top: 252px;
+}
+#main form .arrowCap {
+    left: 167px;
+    top: 304px;
+}
+p.copyright {
+    padding: 20px 10px;
+    font-size: 14px;
+    line-height: 30px;
+}
+}
+
+@media (max-width: 414px) {
+#main {
+    width: 88%;
+    margin: 0 auto 10px;
+	padding: 30px 0;
+}
+#main form input#email {
+    background: url(../images/email.png) no-repeat 13px 10px;
+    background-size: 20px;
+}
+#main form input#password1 {
+    background: url(../images/key.png) no-repeat 13px 10px;
+	background-size:20px;
+}
+#main form input#password2 {
+    background: url(../images/key2.png) no-repeat 13px 10px;
+	background-size:20px;
+}
+input#email, input#password1, input#password2 {
+	padding: 0 20px 0 40px;
+	font-size: 14px;
+    height: 40px;
+	margin-bottom:20px;
+}
+/*-- agile --*/
+#main form .arrow {
+    left: 169px;
+    top: 242px;
+}
+#main form .arrowCap {
+    left: 163px;
+    top: 294px;
+}
+#main form .meterText {
+    left: 138px;
+    top: 395px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 35px;
+	top:8px;
+}
+h1.w3ls {
+    font-size: 28px;
+    padding: 20px 0;
+}
+}
+
+@media (max-width: 384px) {
+input#email, input#password1, input#password2 {
+    padding: 0 20px 0 41px;
+    font-size: 14px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 25px;
+    top: 5px;
+}
+#main form .arrow {
+    left: 156px;
+    top: 242px;
+}
+#main form .arrowCap {
+    left: 150px;
+    top: 294px;
+}
+#main form .meterText {
+    left: 123px;
+    top: 395px;
+}
+h1.w3ls {
+    font-size: 26px;
+    padding: 20px 0;
+}
+}
+
+@media (max-width: 375px) {
+input#email, input#password1, input#password2 {
+    width: 220px;
+}
+#main form .arrow {
+    left: 153px;
+	/*-- w3l --*/
+    top: 242px;
+}
+#main form .arrowCap {
+    left: 147px;
+    top: 294px;
+}
+}
+
+@media (max-width: 320px) {
+h1.w3ls {
+    font-size: 22px;
+    padding: 20px 0;
+}
+#main {
+	border: 5px solid rgba(31, 20, 20, 0.37);
+    width: 88%;
+    margin: 0 auto 10px;
+    padding: 20px 0;
+}
+input#email, input#password1, input#password2 {
+    width: 185px;
+    margin-bottom: 15px;
+	padding: 0 20px 0 38px;
+}
+#main form input#email {
+    background: url(../images/email.png) no-repeat 10px 10px;
+    background-size: 20px;
+}
+#main form input#password1 {
+    background: url(../images/key.png) no-repeat 10px 10px;
+    background-size: 20px;
+}
+#main form input#password2 {
+    background: url(../images/key2.png) no-repeat 10px 10px;
+    background-size: 20px;
+}
+#main form .row.error:after, #main form .row.success:after {
+    right: 20px;
+    top: 5px;
+}
+#main form .arrow {
+    left: 129px;
+    top: 217px;
+}
+#main form .arrowCap {
+    left: 123px;
+    top: 269px;
+}
+#main form .meterText {
+	/*-- w3l --*/
+    left: 98px;
+    top: 370px;
+}
+#main form input[type=submit] {
+	font-size: 14px;
+	padding: 9px;
+}
+p.copyright {
+    padding: 20px 10px;
+    font-size: 13px;
+    line-height: 30px;
+}
+}
+
+
+
+
+
+
+
+/*-- /responsive design --*/
